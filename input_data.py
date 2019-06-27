@@ -2,7 +2,7 @@ import tensorflow as tf
 from os import listdir
 import numpy as np
 
-file_path = "data/voc_pascal/"
+file_path = "POTSDAM/imgs"
 batch_size = 1
 
 def parse_image(filename):
